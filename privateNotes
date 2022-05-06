@@ -1,0 +1,2 @@
+Molgenis Backend hat probleme apache zu starten wegen berechtigungne "chmod 777 -R data" hat das problem behoben...wenn man dann neustartet sollte aber bei der instalation gleich richtig restellt werden
+
