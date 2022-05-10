@@ -155,8 +155,8 @@ services:
     links:
       - bibbox-blazegraph:blazegraph
       - bibbox-mongo:mongo
-#    environment:
-#      - CLIENTURL="http://localhost:8088"
+    environment:
+      - CLIENTURL="http://localhost:8088"
 #    depends_on:
 #      - virtuoso
 #    environment:
