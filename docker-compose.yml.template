@@ -84,7 +84,6 @@ services:
         hard: -1
     volumes:
       - ./data/usr/share/elasticsearch/data:/usr/share/elasticsearch/data
-    command: chmod -R 777 /usr/share/elasticsearch/data
     networks:
       - bibbox-default-network
     ports:
