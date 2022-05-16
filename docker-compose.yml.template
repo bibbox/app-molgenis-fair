@@ -84,6 +84,8 @@ services:
         hard: -1
     volumes:
       - ./data/usr/share/elasticsearch/data:/usr/share/elasticsearch/data
+    depends_on:
+      - §§INSTANCE-molgenis-minio:
     networks:
       - bibbox-default-network
     ports:
