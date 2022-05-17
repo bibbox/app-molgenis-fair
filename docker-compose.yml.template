@@ -161,6 +161,9 @@ services:
     restart: unless-stopped
     networks:
       - bibbox-default-network
+    links:
+      - §§INSTANCE-fdp-client:fdp-client
+      - §§INSTANCE-molgenis-frontend:molgenis-frontend
     environment:
       - JUPYTER_TOKEN=§§JUPYTER_TOKEN
       - FDP_TITLE=§§FDP_TITLE
