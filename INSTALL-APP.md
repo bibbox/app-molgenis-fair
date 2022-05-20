@@ -18,7 +18,7 @@ Further information can be found here https://molgenis.org/ and https://molgenis
 
 ![Screenshot02](assets/install-screen-02.png)
 
-#### Upload data (template in /molgenis_fdp_template) using the Molgenis EMX format.
+#### Upload data (template in /data/molgenis_fdp_template) using the Molgenis EMX format.
 Other fromats like `.csv` and `.vcf` are also supported and can be nativly uploaded.
 
 ![Screenshot03](assets/install-screen-03.png)
@@ -29,7 +29,14 @@ Other fromats like `.csv` and `.vcf` are also supported and can be nativly uploa
 
 #### Set up FAIR Data Point.
 
-Execute jupyter notebook (jupyter/fillFDP.ipynb)
+Execute jupyter notebook (/data/jupyter/fillFDP.ipynb)
+
+    - sets up FDP using environment variables set in docker-compose.yml.template
+    
+    - sets User credentials (Mail: "albert.einstein@example.com", Password: "password")
+      PLEASE CHANGE DEFAULT PASSWORD!
+
+    - creates FDP data from imported molgenis data points (added to molgenis by uploading)
 
 #### Change default password
 
