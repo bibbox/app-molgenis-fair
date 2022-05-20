@@ -1,4 +1,4 @@
-## Molgenis Installation Instructions 
+## Molgenis & FAIR Data Point Installation Instructions 
 
 ### Start Molgenis
 
@@ -18,7 +18,7 @@ Further information can be found here https://molgenis.org/ and https://molgenis
 
 ![Screenshot02](assets/install-screen-02.png)
 
-#### Upload your data using the Molgenis EMX format.
+#### Upload data (template in /molgenis_fdp_template) using the Molgenis EMX format.
 Other fromats like `.csv` and `.vcf` are also supported and can be nativly uploaded.
 
 ![Screenshot03](assets/install-screen-03.png)
@@ -26,6 +26,13 @@ Other fromats like `.csv` and `.vcf` are also supported and can be nativly uploa
 #### Navigate through your data using the Navigator.
 
 ![Screenshot04](assets/install-screen-04.png)
+
+#### Execute jupyter notebook (.ipynb_checkpoints/fillFDP.ipynb) to set up FAIR Data Point.
+
+Default username is "albert.einstein@example.com" and password is set to "password".
+Log in at FAIR Data Point and change the password (top right corner: "edit profile")
+
+![Screenshot05](assets/user_page_fdp.png)
 
 ## After the installation
 Have a nice ride with the Admins youngtimer.
