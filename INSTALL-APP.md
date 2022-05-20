@@ -27,7 +27,11 @@ Other fromats like `.csv` and `.vcf` are also supported and can be nativly uploa
 
 ![Screenshot04](assets/install-screen-04.png)
 
-#### Execute jupyter notebook (.ipynb_checkpoints/fillFDP.ipynb) to set up FAIR Data Point.
+#### Set up FAIR Data Point.
+
+Execute jupyter notebook (jupyter/fillFDP.ipynb)
+
+#### Change default password
 
 Default username is "albert.einstein@example.com" and password is set to "password".
 Log in at FAIR Data Point and change the password (top right corner: "edit profile")
