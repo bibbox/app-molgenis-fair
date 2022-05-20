@@ -31,12 +31,12 @@ Other fromats like `.csv` and `.vcf` are also supported and can be nativly uploa
 
 Execute jupyter notebook (/data/jupyter/fillFDP.ipynb)
 
-    sets up FDP using environment variables set in docker-compose.yml.template
+sets up FDP using environment variables set in docker-compose.yml.template
     
-    sets User credentials (Mail: "albert.einstein@example.com", Password: "password")
-    PLEASE CHANGE DEFAULT PASSWORD!
+sets User credentials (Mail: "albert.einstein@example.com", Password: "password")
+PLEASE CHANGE DEFAULT PASSWORD!
 
-    creates FDP data from imported molgenis data points (added to molgenis by uploading)
+creates FDP data from imported molgenis data points (added to molgenis by uploading)
 
 #### Change default password
 
