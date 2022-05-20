@@ -2,7 +2,7 @@
 
 This container can be installed as [BIBBOX APP](https://bibbox.readthedocs.io/en/latest/ "BIBBOX") or standalone.
  
-After the installation follow these [instructions](INSTALL-APP.md)
+For FDP, after the installation follow these [instructions](INSTALL-APP.md)
 
 ## Hints
 * approx. time with medium fast internet connection: **15 minutes**
@@ -19,6 +19,8 @@ Within BIBBOX you can use the [BIBBOX](https://bibbox.readthedocs.io/en/latest/ 
 The default values for the standalone installation are:
 
  * ADMIN_PASSWORD = admin
+
+Finally, set up FDP: [instructions](INSTALL-APP.md)
 
 ## Docker Images Used
  * [molgenis/molgenis-frontend:8.7.2](https://hub.docker.com/r/molgenis/molgenis-frontend/), offical molgenis-frontend container 
@@ -49,7 +51,7 @@ To install the app locally execute the commands:
 * Run **docker-compose up** in the root folder of the project: 
   * `docker-compose up -d`
 * **Alternatively** on a *Linux* system run the bash script `intsall.sh` after cloning and change the working directory to the git repository directory.
- 
+* Set up Fair Data Point: [instructions](INSTALL-APP.md)
 
 After the installation (might take a few minutes) open **http://localhost** in your browser to access Molgenis.
 The default admin login is **user:admin/pw:admin**, this can be changed in `docker-compose.yml`.
