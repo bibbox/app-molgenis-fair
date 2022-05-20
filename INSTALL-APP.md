@@ -29,11 +29,13 @@ Other fromats like `.csv` and `.vcf` are also supported and can be nativly uploa
 
 #### Set up FAIR Data Point.
 
-Execut jupyter notebook (/data/jupyter/fillFDP.ipynb) to:
+Execute jupyter notebook (/data/jupyter/fillFDP.ipynb) to:
 
 1) set up FDP using environment variables set in docker-compose.yml.template
     
 2) set User credentials (Mail: "albert.einstein@example.com", Password: "password")
+
+
    PLEASE CHANGE DEFAULT PASSWORD!
 
 3) creates FDP data from imported molgenis data points (added to molgenis by uploading)
