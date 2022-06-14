@@ -6,8 +6,8 @@ Be patient this can take up to 5 minutes (its a huge app). The last message in t
 
 `17-Sep-2021 07:24:16.134 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]`
 
-### Log in with the username admin and the password you specified in the installation. 
-The default admin user name is admin. The admin password is set during the installation within **BIBBOX**.
+### Log in with the default credentials 
+The default admin user name is "admin". The default admin password is "admin".
 
 ![Screenshot01](assets/install-screen-01.png)
 
@@ -27,25 +27,32 @@ Other fromats like `.csv` and `.vcf` are also supported and can be nativly uploa
 
 ![Screenshot04](assets/install-screen-04.png)
 
+#### FAIRification
+Follow these steps to make the app FAIR (**F**indable, **A**ccessible, **I**nteroperable and **R**usable).
+
+1) upload the FDP template (FDP_template_EMX1.xlsx) to Molgenis. It can be found under data/molgenis_fdp_template
+2) Using the Navigator, you will find a new package (fdp)
+3) Add the information to the Catalog, Dataset and Distribution tables, according to your uploaded data you wish to be represented in the FAIR data point. Find an example for a catalog entry below. 
+![Screenshot05](assets/Molgenis_FDP_catalog.png)
+
+
 #### Set up FAIR Data Point.
 
-Execute jupyter notebook (/data/jupyter/fillFDP.ipynb) to:
-
-1) set up FDP using environment variables set in docker-compose.yml.template
+Open Jupyter via the app dashboard or by changing the subdomain of the url to `<instancename>-jupyter`:
+![Screenshot06](assets/molgenis_fdp_dashboard.png)
+1) Open jupyter notebook (/work/fillFDP.ipynb) 
     
-2) set User credentials (Mail: "albert.einstein@example.com", Password: "password")
+2) set User credentials for the FAIR Data Point and Molgenis
+FDP default credentials: EMail "albert.einstein@example.com", Password: "password"
 
-
-   PLEASE CHANGE DEFAULT PASSWORD!
-
-3) creates FDP data from imported molgenis data points (added to molgenis by uploading)
+3) creates FDP data from imported molgenis data points (added to molgenis by uploading) by executing the jupyter notebook by clicking the fast forward symbol (&#9193;) on the top
 
 #### Change default password
 
 Default username is "albert.einstein@example.com" and password is set to "password".
 Log in at FAIR Data Point and change the password (top right corner: "edit profile")
 
-![Screenshot05](assets/user_page_fdp.png)
+![Screenshot06](assets/user_page_fdp.png)
 
 ## After the installation
 Have a nice ride with the Admins youngtimer.

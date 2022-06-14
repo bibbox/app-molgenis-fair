@@ -1,8 +1,9 @@
-# MOLGENIS BIBBOX application eith FDP extension
+# MOLGENIS BIBBOX application with FDP extension
 
 This container can be installed as [BIBBOX APP](https://bibbox.readthedocs.io/en/latest/ "BIBBOX") or standalone.
  
-For FDP, after the installation follow these [instructions](INSTALL-APP.md)
+After the installation follow these [instructions](INSTALL-APP.md)
+
 
 ## Hints
 * approx. time with medium fast internet connection: **15 minutes**
