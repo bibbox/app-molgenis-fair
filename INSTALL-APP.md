@@ -18,8 +18,9 @@ Further information can be found here https://molgenis.org/ and https://molgenis
 
 ![Screenshot02](assets/install-screen-02.png)
 
-#### Upload data (template in /data/molgenis_fdp_template) using the Molgenis EMX format.
+#### Upload data (template in /data/molgenis_fdp_template) using the Molgenis EMX format and the "advanced data import" option.
 Other fromats like `.csv` and `.vcf` are also supported and can be nativly uploaded.
+
 
 ![Screenshot03](assets/install-screen-03.png)
 
