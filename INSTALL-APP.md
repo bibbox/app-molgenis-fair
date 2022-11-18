@@ -49,10 +49,11 @@ FDP default credentials: EMail "albert.einstein@example.com", Password: "passwor
 
 3) creates FDP data from imported molgenis data points (added to molgenis by uploading) by executing the jupyter notebook by clicking the fast forward symbol (&#9193;) on the top
 
+#### Login at the FAIR Data Point
+On the APP dashboard click on teh FDP : "FDPJupyter"
+The default username is "albert.einstein@example.com" and password is set to "password".
 #### Change default password
-
-Default username is "albert.einstein@example.com" and password is set to "password".
-Log in at FAIR Data Point and change the password (top right corner: "edit profile")
+After logging in, change the password (top right corner: "edit profile")
 
 ![Screenshot06](assets/user_page_fdp.png)
 
