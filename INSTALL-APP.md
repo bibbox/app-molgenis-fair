@@ -33,7 +33,7 @@ Other fromats like `.csv` and `.vcf` are also supported and can be nativly uploa
 Follow these steps to make the app FAIR (**F**indable, **A**ccessible, **I**nteroperable and **R**eusable).
 
 1) upload the FDP template (FDP_template_EMX1.xlsx) to Molgenis. It can be found under data/molgenis_fdp_template
-2) Using the Navigator, you will find a new package (fdp)
+2) Using the Navigator, you will find a new package (fdp). Click on it.
 3) Add the information to the Catalog, Dataset and Distribution tables, according to your uploaded data you wish to be represented in the FAIR data point. Find an example for a catalog entry below. 
 ![Screenshot05](assets/Molgenis_FDP_catalog.png)
 
