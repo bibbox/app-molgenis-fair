@@ -29,7 +29,7 @@ Other fromats like `.csv` and `.vcf` are also supported and can be nativly uploa
 ![Screenshot04](assets/install-screen-04.png)
 
 #### FAIRification
-Follow these steps to make the app FAIR (**F**indable, **A**ccessible, **I**nteroperable and **R**usable).
+Follow these steps to make the app FAIR (**F**indable, **A**ccessible, **I**nteroperable and **R**eusable).
 
 1) upload the FDP template (FDP_template_EMX1.xlsx) to Molgenis. It can be found under data/molgenis_fdp_template
 2) Using the Navigator, you will find a new package (fdp)
