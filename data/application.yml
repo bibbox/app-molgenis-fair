@@ -7,6 +7,7 @@ repository:
         url: http://blazegraph:8080/blazegraph
         
 ping:
+    enabled: true
     endpoint: http://bibbox-sys-commander-master-fdp-client
     interval: 600000 # milliseconds (only for test increase in production)
 
