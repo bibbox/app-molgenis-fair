@@ -40,7 +40,7 @@ Follow these steps to make the app FAIR (**F**indable, **A**ccessible, **I**nter
 
 #### Set up FAIR Data Point.
 
-Open Jupyter via the app dashboard or by changing the subdomain of the url to `<instancename>-jupyter`:
+Open Jupyter via the app dashboard (FDPJupyter) or by changing the subdomain of the url to `<instancename>-jupyter`:
 ![Screenshot06](assets/molgenis_fdp_dashboard.png)
 1) Open jupyter notebook (/work/fillFDP.ipynb) 
     
@@ -50,7 +50,7 @@ FDP default credentials: EMail "albert.einstein@example.com", Password: "passwor
 3) creates FDP data from imported molgenis data points (added to molgenis by uploading) by executing the jupyter notebook by clicking the fast forward symbol (&#9193;) on the top
 
 #### Login at the FAIR Data Point
-On the APP dashboard click on teh FDP : "FDPJupyter"
+On the APP dashboard click on the FDP : "Molgenis-FDP-Client:"
 The default username is "albert.einstein@example.com" and password is set to "password".
 #### Change default password
 After logging in, change the password (top right corner: "edit profile")
