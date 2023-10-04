@@ -3,7 +3,7 @@
         "id":"ADMIN_PASSWORD",
         "display_name":"Molgenis ADMIN Password",
         "type":"text",
-        "default_value":"admin",
+        "default_value":"changethispasswordinproductionenvironments",
         "description":"Admin Password, please change for production",
         "min_length": "1",
         "max_length": "128"
@@ -12,7 +12,7 @@
         "id":"JUPYTER_TOKEN",
         "display_name":"Jupyter access token",
         "type":"text",
-        "default_value":"Default Value",
+        "default_value":"default_token",
         "description":"",
         "min_length": "1",
         "max_length": "128"
@@ -21,7 +21,7 @@
         "id":"FDP_TITLE",
         "display_name":"FDP Title",
         "type":"text",
-        "default_value":"Default Value",
+        "default_value":"default_title",
         "description":"",
         "min_length": "1",
         "max_length": "128"
@@ -30,7 +30,7 @@
         "id":"FDP_DESCRIPTION",
         "display_name":"FDP Description",
         "type":"text",
-        "default_value":"Default Value",
+        "default_value":"default_description",
         "description":"",
         "min_length": "1",
         "max_length": "128"
